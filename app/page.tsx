@@ -30,7 +30,7 @@ export default function Component() {
   const [mostrarFormulario, setMostrarFormulario] = useState(false)
   const [loading, setLoading] = useState(true)
 
-  const API_BASE = "http://localhost:3001"
+  const API_BASE = "https://mini-projeto-mulheres-que-inspiram.vercel.app"
 
   useEffect(() => {
     carregarLivros()
